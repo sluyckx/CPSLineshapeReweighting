@@ -1,0 +1,33 @@
+# TextFile that contains all the necesairy file names to run the " Fetching POWHEG_LHE --> HiggsMass Histogram "
+# ggH_CPS
+#
+#   110 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/
+115 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_115_10_0_LNU2J_115_CPS.tar.gz massH_ggH_115GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+120 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_120_10_1_LNU2J_120_CPS.tar.gz massH_ggH_120GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+#   125 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_124_10_3_LNU2J_124_CPS.tar.gz massH_ggH_125GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+130 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_130_10_5_LNU2J_130_CPS.tar.gz massH_ggH_130GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+135 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_135_10_6_LNU2J_135_CPS.tar.gz massH_ggH_135GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+140 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_140_10_7_LNU2J_140_CPS.tar.gz massH_ggH_140GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+145 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_145_10_0_LNU2J_145_CPS.tar.gz massH_ggH_145GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+150 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_150_10_8_LNU2J_150_CPS.tar.gz massH_ggH_150GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+#   155 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/
+160 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_160_10_9_LNU2J_160_CPS.tar.gz massH_ggH_160GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+170 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_170_10_10_LNU2J_170_CPS.tar.gz massH_ggH_170GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+180 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_180_10_0_LNU2J_180_CPS.tar.gz massH_ggH_180GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+190 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_190_10_2_LNU2J_190_CPS.tar.gz massH_ggH_190GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+200 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_200_10_3_LNU2J_200_CPS.tar.gz massH_ggH_200GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+250 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_250_10_5_LNU2J_250_CPS.tar.gz massH_ggH_250GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+300 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_300_10_7_LNU2J_300_CPS.tar.gz massH_ggH_300GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+350 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_350_10_8_LNU2J_350_CPS.tar.gz massH_ggH_350GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+400 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_400_10_0_LNU2J_400_CPS.tar.gz massH_ggH_400GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+450 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_450_10_1_LNU2J_450_CPS.tar.gz massH_ggH_450GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+500 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_500_10_2_LNU2J_500_CPS.tar.gz massH_ggH_500GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+550 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_550_10_3_LNU2J_550_CPS.tar.gz massH_ggH_550GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+600 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_600_10_4_LNU2J_600_CPS.tar.gz massH_ggH_600GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+700 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_700_10_6_LNU2J_700_CPS.tar.gz massH_ggH_700GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+800 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_800_10_8_LNU2J_800_CPS.tar.gz massH_ggH_800GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+900 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_900_10_10_LNU2J_900_CPS.tar.gz massH_ggH_900GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+1000 /user/sluyckx/files_LHE_POWHEG_HiggsMass/ggH_CPS/RG_hmass_1000_10_11_LNU2J_1000_CPS.tar.gz massH_ggH_1000GeV_lhe.root /user/sluyckx/files_LHE_POWHEG_HiggsMass_Histograms/ggH_CPS/
+#
+# ggH_CPS_7TeV
+#
