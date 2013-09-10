@@ -90,8 +90,8 @@ void extractHiggsMass_Analysis(int mass = 500, TString input = "~/cms/HWW2012/La
 //  float hmax=mass+350;
 //  if(hmin<0) hmin=0;
   float hmin=0;
-  float hmax=mass+500;
-  int NBins = (int) ((hmax-hmin)*1000./100 );
+  float hmax=mass+1500;
+  int NBins = (int) ((hmax-hmin)*1500./100 );
 
   TH1F *massH = new TH1F("massH","",NBins,hmin,hmax);
   TH1F *massH_cut = new TH1F("massH_cut","",NBins,hmin,hmax);
