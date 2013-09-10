@@ -47,6 +47,7 @@ do
 
   # copy away
   cp $outputfile $outputpath 
+  echo "Copied all the files to $outputpath"
   cd - 
  
   # remove tmp folder
