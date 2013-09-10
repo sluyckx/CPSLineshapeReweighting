@@ -31,7 +31,9 @@ void extractHiggsMass_POWHEG_LHE(TString inputfile="lhe2root_500.root", float ma
   // Output Histogram
   float hmin=0;
   float hmax=masspoint+500;
-  int NBins = (int) (hmax-hmin)*10./100;
+  int NBins = (int) ((hmax-hmin)*1000./100);
+  //int NBins = (int) (hmax-hmin)*10./100;
+
 //  int NBins = 400;
 //  float hmin=masspoint-350;
 //  float hmax=masspoint+350;
