@@ -32,7 +32,8 @@ template <typename T>
 
 //____________________________________________________________________________________________________________________
 
-void calculate_Weight(TString fileIn_path_ana = "~/cms/HWW2012/2HDM/realCode/rootfiles/v0/analysis/" , 
+void calculate_Weight( int mass = 500,
+                 TString fileIn_path_ana = "~/cms/HWW2012/2HDM/realCode/rootfiles/v0/analysis/" , 
                  TString fileIn_ana = "massH_500GeV_analysis.root", 
                  TString fileIn_path_lhe = "~/cms/HWW2012/2HDM/realCode/rootfiles/v0/POWHEG_lhe/" ,
                  TString fileIn_lhe = "massH_500GeV_lhe.root",
@@ -48,10 +49,10 @@ void calculate_Weight(TString fileIn_path_ana = "~/cms/HWW2012/2HDM/realCode/roo
    TFile *f_ana = TFile::Open(fileIn_path_ana+"/"+fileIn_ana,"READ");
    if(debug) std::cout << "Analysis file: " << f_ana <<std::endl;
    // open Histogram
-   TH1F * massH_ana = (TH1F*) f_ana->FindObjectAny(histoIn_name_ana);
-   TH1F * HiggsMass_ana = 0;
-   HiggsMass_ana=(TH1F*) massH_ana->Clone("massH_ana");
-   if(HiggsMass_ana==0) {
+   TH1F * HiggsMass_ana = (TH1F*) f_ana->FindObjectAny(histoIn_name_ana);
+   TH1F * massH_ana = 0;
+   massH_ana=(TH1F*) HiggsMass_ana->Clone("massH_ana");
+   if(massH_ana==0) {
       cout << "Analysis histogram not found: " << histoIn_name_ana << " in file " << fileIn_ana /*<< "/" << treeIn*/ << endl; 
       return;
    }
@@ -61,13 +62,38 @@ void calculate_Weight(TString fileIn_path_ana = "~/cms/HWW2012/2HDM/realCode/roo
    TFile *f_lhe = TFile::Open(fileIn_path_lhe+"/"+fileIn_lhe,"READ");
    if(debug) std::cout << "Lhe file: " << f_lhe <<std::endl;
    // open Histogram
-   TH1F * massH_lhe = (TH1F*) f_lhe->FindObjectAny(histoIn_name_lhe);
-   TH1F * HiggsMass_lhe = 0;
-   HiggsMass_lhe=(TH1F*) massH_lhe->Clone("massH_lhe");
-   if(HiggsMass_lhe==0) {
+   TH1F * HiggsMass_lhe = (TH1F*) f_lhe->FindObjectAny(histoIn_name_lhe);
+   TH1F * massH_lhe = 0;
+   massH_lhe=(TH1F*) HiggsMass_lhe->Clone("massH_lhe");
+   if(massH_lhe==0) {
       cout << "Lhe histogram not found: " << histoIn_name_lhe << " in file " << fileIn_lhe /*<< "/" << treeIn*/ << endl;
       return;
    }
+
+
+   // Rebinning the cloned massH_lhe and massH_ana histograms
+   int rebinningFactor = 100;
+   if( mass <= 160 ) rebinningFactor = 1;
+   if( mass > 160 && mass <= 200 ) rebinningFactor = 10;
+   if( mass > 200 && mass <= 300 ) rebinningFactor = 30;
+   if( mass == 350 ) rebinningFactor = 50;
+   if( mass == 400 ) rebinningFactor = 100;
+   if( mass == 450 ) rebinningFactor = 150;
+   if( mass == 500 ) rebinningFactor = 200;
+   if( mass == 550 ) rebinningFactor = 250;
+   if( mass == 600 ) rebinningFactor = 275;
+   if( mass == 700 ) rebinningFactor = 350;
+   if( mass == 800 ) rebinningFactor = 400;
+   if( mass == 900 ) rebinningFactor = 500;
+   if( mass == 1000 ) rebinningFactor = 650;
+
+   cout << "rebinningFactor: " << rebinningFactor << endl ; 
+   TH1F * massH_lhe_reb = (TH1F*) massH_lhe->Rebin(rebinningFactor);
+   TH1F * massH_ana_reb = (TH1F*) massH_ana->Rebin(rebinningFactor);
+   massH_lhe = (TH1F*) massH_lhe_reb->Clone();
+   massH_ana = (TH1F*) massH_ana_reb->Clone();
+   delete massH_lhe_reb;
+   delete massH_ana_reb;
 
 /* // TestPlotting
    massH_ana->Draw();
