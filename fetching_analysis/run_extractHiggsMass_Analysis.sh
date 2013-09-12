@@ -10,7 +10,7 @@
 
 #
 textfile='Input_AllFileNames_Analysis.txt'
-outputpath='/home/sluyckx/cms/HWW2012/2HDM/realCode/MASTERscript/fetching_analysis/files_Analysis_HiggsMass_Histograms/ggH_CPS'
+outputpath='./files_Analysis_HiggsMass_Histograms/ggH_CPS'
 
 # reading the textfile lines'
 while read p;

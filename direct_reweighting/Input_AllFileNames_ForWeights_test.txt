@@ -1,2 +1,1 @@
-massH_ggH_115GeV_ana.root massH_ggH_115GeV_lhe.root weights_massH_ggH_115GeV.root
-massH_ggH_150GeV_ana.root massH_ggH_150GeV_lhe.root weights_massH_ggH_150GeV.root
+800 massH_ggH_800GeV_ana.root massH_ggH_800GeV_lhe.root weights_massH_ggH_800GeV.root

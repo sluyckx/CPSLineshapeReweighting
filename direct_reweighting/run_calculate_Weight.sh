@@ -10,15 +10,15 @@
 #
 textfile='Input_AllFileNames_ForWeights.txt'
 #textfile='Input_AllFileNames_ForWeights_test.txt'
-outputpath='/home/sluyckx/cms/HWW2012/2HDM/realCode/MASTERscript/direct_reweighting/output_weights/'
+outputpath='./output_weights/'
 
 #inputpath_ana="~/cms/HWW2012/2HDM/realCode/MASTERscript/fetching_analysis/files_Analysis_HiggsMass_Histograms/"
-inputpath_ana="~/cms/HWW2012/2HDM/realCode/MASTERscript/fetching_analysis/files_Analysis_HiggsMass_Histograms_Bin1500/"
+inputpath_ana="../fetching_analysis/files_Analysis_HiggsMass_Histograms_Bin1500/"
 inputpath_ana_extra="ggH_CPS/"
 inputpath_ana="$inputpath_ana$inputpath_ana_extra"
 
 #inputpath_lhe="~/cms/HWW2012/2HDM/realCode/MASTERscript/fetching_POWHEG_lhe/files_LHE_POWHEG_HiggsMass_Histograms/"
-inputpath_lhe="~/cms/HWW2012/2HDM/realCode/MASTERscript/fetching_POWHEG_lhe/files_LHE_POWHEG_HiggsMass_Histograms_Bin1500/"
+inputpath_lhe="../fetching_POWHEG_lhe/files_LHE_POWHEG_HiggsMass_Histograms_Bin1500/"
 inputpath_lhe_extra="ggH_CPS/"
 inputpath_lhe="$inputpath_lhe$inputpath_lhe_extra"
 
